@@ -1,0 +1,5 @@
+我的所有PATH 路径包括 $PATH
+
+The User of the shell is ${USER}
+
+PWD: ${PWD}
