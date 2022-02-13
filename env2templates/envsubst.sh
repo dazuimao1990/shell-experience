@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# 这个用例是通过 envsubst 实现在 shell 中利用环境变量渲染模版，从 nginx 镜像学习而来
+# 这个用例是通过 envsubst (env substitutes 环境变量替代 https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html)
+# 实现在 shell 中利用环境变量渲染模版，从 nginx 镜像学习而来
 # 基本语法如下：
 # 安装命令，以 ubuntu 为例
 # apt-get update 
