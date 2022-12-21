@@ -20,7 +20,7 @@ Usage:
 $ ./diffcount.sh srcdir destdir 
 src,srcline_num,destline_num,dup_line_num
 test/codefileindir.txt,4,0,0  # 这个文件只在 src 目录中存在，源文件中代码行数得到统计，被比对的文件中代码行数为0，重复行数也为0。
-codefile.txt,5,5,3            # 这个文件在 src 和被比对的文件中有差异，重复代码行数为 4.
+codefile.txt,5,5,3            # 这个文件在 src 和被比对的文件中有差异，重复代码行数为 3.
 ===============================
 src_total,dest_total,tdup_total
 9,5,3                         # src 文件夹中代码总行数,被比对文件夹中代码总行数,重复代码总行数.
